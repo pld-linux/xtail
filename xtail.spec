@@ -9,6 +9,7 @@ Source0:	http://www.unicom.com/sw/xtail/%{name}-%{version}.tar.gz
 # Source0-md5:	2e4717c591a2cbbd4aeb63d00c87a0cb
 Patch0:		%{name}-Makefile.patch
 URL:		http://www.unicom.com/sw/xtail/
+BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
