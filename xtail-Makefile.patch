@@ -1,0 +1,17 @@
+--- Makefile.in.dist	2005-03-08 14:36:35.223146904 +0100
++++ Makefile.in	2005-03-08 14:38:48.532880744 +0100
+@@ -42,10 +42,12 @@
+ install : $(bindir)/xtail $(mandir)/man1/xtail.1
+ 
+ $(bindir)/xtail : xtail
+-	$(INSTALL_PROGRAM) $? $@
++	$(INSTALL) -d $(DESTDIR)/$(bindir)
++	$(INSTALL_PROGRAM) $? $(DESTDIR)$@
+ 
+ $(mandir)/man1/xtail.1 : xtail.1
+-	$(INSTALL_DATA) $? $@
++	$(INSTALL) -d $(DESTDIR)/$(mandir)/man1
++	$(INSTALL_DATA) $? $(DESTDIR)$@
+ 
+ clean :
+ 	rm -f xtail $(XTAIL_OBJECTS) $(TARBALL)
