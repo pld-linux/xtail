@@ -2,7 +2,7 @@ Summary:	xtail watches the growth of files
 Summary(pl):	xtail obserwuje przyrost zawarto¶ci plików
 Name:		xtail
 Version:	2.1
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://www.unicom.com/sw/xtail/%{name}-%{version}.tar.gz
@@ -43,6 +43,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-
 %attr(755,root,root) %{_bindir}/xtail
 %{_mandir}/man1/*
