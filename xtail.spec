@@ -1,5 +1,5 @@
 Summary:	xtail watches the growth of files
-Summary(pl):	xtail obserwuje przyrost zawarto¶ci plików
+Summary(pl.UTF-8):   xtail obserwuje przyrost zawartoÅ›ci plikÃ³w
 Name:		xtail
 Version:	2.1
 Release:	1
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 xtail is sort of a tail -f for many files. It's a great way to monitor
 log files.
 
-%description -l pl
-xtail dzia³a jak polecenie tail -f, ale dla wielu plików jednocze¶nie.
-Jest bardzo dobrym sposobem na monitorowanie logów.
+%description -l pl.UTF-8
+xtail dziaÅ‚a jak polecenie tail -f, ale dla wielu plikÃ³w jednoczeÅ›nie.
+Jest bardzo dobrym sposobem na monitorowanie logÃ³w.
 
 %prep
 %setup -q
