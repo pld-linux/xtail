@@ -1,5 +1,5 @@
 Summary:	xtail watches the growth of files
-Summary(pl.UTF-8):   xtail obserwuje przyrost zawartości plików
+Summary(pl.UTF-8):	xtail obserwuje przyrost zawartości plików
 Name:		xtail
 Version:	2.1
 Release:	1
